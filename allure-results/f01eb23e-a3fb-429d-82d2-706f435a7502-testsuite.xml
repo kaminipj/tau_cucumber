@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617233385970' stop='1617233401457'>
+    <name>Register a new  user: New user registered successfully</name>
+    <title>Register a new  user: New user registered successfully</title>
+    <test-cases>
+        <test-case start='1617233385972' status='passed' stop='1617233385977'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617233385982' status='passed' stop='1617233393804'>
+            <name>Given user is on home page</name>
+            <title>Given user is on home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617233393804' status='passed' stop='1617233397010'>
+            <name>When user clicks on sign in</name>
+            <title>When user clicks on sign in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617233397010' status='passed' stop='1617233397237'>
+            <name>When user enters valid email</name>
+            <title>When user enters valid email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617233397237' status='passed' stop='1617233397353'>
+            <name>When user clicks on create account</name>
+            <title>When user clicks on create account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617233397353' status='broken' stop='1617233401454'>
+            <name>When user enters all the fields</name>
+            <title>When user enters all the fields</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid element state</message>
+                <stack-trace>invalid element state
+                  (Session info: chrome=89.0.4389.90)
+                    at Object.getErrorFromResponseBody (C:\Users\k.pj\tau_cucumber\node_modules\webdriver\src\utils.ts:221:12)
+                    at WebDriverRequest._request (C:\Users\k.pj\tau_cucumber\node_modules\webdriver\src\request.ts:195:23)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\k.pj\tau_cucumber\node_modules\webdriverio\src\middlewares.ts:20:32)
+                    at Element.setValue (C:\Users\k.pj\tau_cucumber\node_modules\webdriverio\src\commands\element\setValue.ts:34:5)
+                    at Element.runCommandWithHooks (C:\Users\k.pj\tau_cucumber\node_modules\@wdio\sync\src\wrapCommand.ts:125:25)
+                    at Element.runCommandWithHooks (C:\Users\k.pj\tau_cucumber\node_modules\@wdio\sync\src\wrapCommand.ts:118:24)
+                    at Element.wrapCommandFn (C:\Users\k.pj\tau_cucumber\node_modules\@wdio\sync\src\wrapCommand.ts:78:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\k.pj\tau_cucumber\node_modules\webdriverio\src\middlewares.ts:43:12)
+                    at World.setValue (C:\Users\k.pj\tau_cucumber\steps\HomePage/when.js:30:19)
+                    at World.executeSync (C:\Users\k.pj\tau_cucumber\node_modules\@wdio\sync\src\index.ts:39:22)
+                    at C:\Users\k.pj\tau_cucumber\node_modules\@wdio\sync\src\index.ts:74:33</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1617233401455' status='passed' stop='1617233401455'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

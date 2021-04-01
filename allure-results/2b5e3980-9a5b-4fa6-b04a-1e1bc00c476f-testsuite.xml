@@ -1,0 +1,148 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617233275842' stop='1617233283220'>
+    <name>Register a new  user: New user registered successfully</name>
+    <title>Register a new  user: New user registered successfully</title>
+    <test-cases>
+        <test-case start='1617233275844' status='passed' stop='1617233275848'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617233275848' status='passed' stop='1617233283159'>
+            <name>Given user is on home page</name>
+            <title>Given user is on home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617233283160' status='broken' stop='1617233283216'>
+            <name>When user clicks on sign in</name>
+            <title>When user clicks on sign in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: (0 , _$.default)(...).click is not a function</message>
+                <stack-trace>TypeError: (0 , _$.default)(...).click is not a function
+                    at World.click (C:\Users\k.pj\tau_cucumber\steps\HomePage/when.js:8:17)
+                    at World.executeSync (C:\Users\k.pj\tau_cucumber\node_modules\@wdio\sync\src\index.ts:39:22)
+                    at C:\Users\k.pj\tau_cucumber\node_modules\@wdio\sync\src\index.ts:74:33</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1617233283216' status='undefined'>
+            <name>When user enters valid email</name>
+            <title>When user enters valid email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617233283217' status='pending' stop='1617233283217'>
+            <name>user enters valid email</name>
+            <title>user enters valid email</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1617233283217' status='undefined'>
+            <name>When user clicks on create account</name>
+            <title>When user clicks on create account</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617233283217' status='pending' stop='1617233283217'>
+            <name>user clicks on create account</name>
+            <title>user clicks on create account</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1617233283217' status='undefined'>
+            <name>When user enters all the fields</name>
+            <title>When user enters all the fields</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1617233283217' status='pending' stop='1617233283217'>
+            <name>user enters all the fields</name>
+            <title>user enters all the fields</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1617233283217' status='passed' stop='1617233283218'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
