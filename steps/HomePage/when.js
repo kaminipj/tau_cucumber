@@ -10,7 +10,7 @@ When("user clicks on sign in",()=>{
 
 When("user enters valid email",()=>{
    // $("#email_create").setValue("qazwsx123@rfvg3.com")
-   setValue($("#email_create"),"qazwsx123@rfvg9.com")
+   setValue($("#email_create"),"qazwsx123@rfvg007.com")
 }) 
 
 When ("user clicks on create account",()=>{
